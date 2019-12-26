@@ -1,0 +1,14 @@
+.cover{
+    font-size: 20px;
+    color: saddlebrown;
+    padding-bottom: 10px;
+    border-bottom: 3px solid saddlebrown;
+}
+.cover-photo{
+    width: 100%;
+    height: auto;
+}
+.video-img{
+    width: 100%;
+    height: auto;
+}

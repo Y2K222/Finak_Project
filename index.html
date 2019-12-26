@@ -9,6 +9,9 @@
 
     <!--=====CDN section start=====-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Custom Css-->
     <link rel="stylesheet" href="css/style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -25,32 +28,31 @@
 
         <!--=====Nav Start=====-->
         <div class="row nav_bar">
-            <ul class="nav justify-content-end ">
+            <ul class="nav">
                 <li class="nav-item">
                 <a class="nav-link nav-link-active" href="#">ပင်မစာမျက်နှာ</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">အမှတ်တရများ</a>
+                <a class="nav-link" href="pages/blog.html">အမှတ်တရများ</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">အခြား</a>
+                <a class="nav-link" href="pages/other.html">အခြား</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">ကျွန်တော်တို့အကြောင်း</a>
                 </li>
             </ul>
-        </div>
+        </div> 
        <!--=====Nav End=====-->
 
        <!--=====Content Start=====-->
-
         <div class="row content">
             <div class="container banner">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <!--Logo-->
                         <img src="images/logo2.png" class="logo img" alt=""><br><br>
-                        <h4 class="h4">ကျွန်တော်တို့ ငယ်ငယ်က</h4>
+                        <h4 class="h4 header">ကျွန်တော်တို့ ငယ်ငယ်က</h4>
                         <ul class="banner_li">
                             <li>အမှတ်တရတွေရေးမယ်</li>
                             <li>မုန့်တွေ</li>
@@ -58,7 +60,8 @@
                             <li>အရုပ်တွေ</li>
                         </ul>
                     </div>
-                    <div class="col-8">
+                    <div class="col-md-8">
+                        <!--Carousel start-->
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -80,31 +83,33 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
+                         <!--Carousel end-->
                         <button class="btn btn-outline-warning banner-btn">သင့်အကြောင်းရေးရန်</button>
                     </div>
                 </div>                
             </div>
 
+            <!--full width-->
             <div class="row fullwidth_tips">
                 <h2 class="h2 tips"><span>"</span>အရင်အချိန်တွေကို ပြန်မရနိုင်တော့ပေမယ့် <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;အမှတ်တရတွေကို ဒီမှာလာကြည့်နိုင်ပါတယ်</h2>                                                      
             </div>
+            <!--full width-->
 
         </div>
 
         <!--=====About website start=====-->
-
-        <div class="row">
+        <div class="about-website row">
             <div class="container-fluid">
                 <h2 class="about_header text-center">ဒီWebsiteမှာ ဘာတွေပါလဲ ???</h2>
 
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
-                        <h3 class="about-header text-center">ရုပ်ရှင်အဟောင်းများ</h3>
-                        <img src="images/shortcut/poungchain.png" alt="movie" class="about-photo"><br>
+                        <h3 class="about-header text-center">ငယ်ဘဝ အမှတ်တရတွေ</h3>
+                        <img src="images/shortcut/children.png" alt="movie" class="about-photo"><br>
                         <ul class="about-list">
-                            <li>ပေါင်ချိန်</li>
-                            <li>စွန်းဝူခုန်း</li>
-                            <li>ကာတွန်းကား</li>
+                            <li>သူငယ်ချင်းတွေ</li>
+                            <li>အချစ်ဦး</li>
+                            <li>အလွဲလေးတွေ</li>
                             <button class="btn btn-outline-dark about-btn">ကြည့်ရန်</button>
                         </ul>
                     </div>
@@ -119,38 +124,67 @@
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <h3 class="about-header text-center">ရုပ်ရှင်အဟောင်းများ</h3>
-                        <img src="images/shortcut/poungchain.png" alt="movie" class="about-photo"><br>
+                        <h3 class="about-header text-center">ကာတွန်းစာအုပ်များ</h3>
+                        <img src="images/shortcut/books.png" alt="movie" class="about-photo"><br>
                         <ul class="about-list">
-                            <li>ပေါင်ချိန်</li>
-                            <li>စွန်းဝူခုန်း</li>
-                            <li>ကာတွန်းကား</li>
+                            <li>တွတ်ပီ</li>
+                            <li>ပုတက်</li>
+                            <li>ဘိုဘို</li>
                             <button class="btn btn-outline-dark about-btn">ကြည့်ရန်</button>
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <h3 class="about-header text-center">ရုပ်ရှင်အဟောင်းများ</h3>
-                        <img src="images/shortcut/poungchain.png" alt="movie" class="about-photo"><br>
+                        <h3 class="about-header text-center">အရုပ်များ</h3>
+                        <img src="images/shortcut/toys.png" alt="movie" class="about-photo"><br>
                         <ul class="about-list">
-                            <li>ပေါင်ချိန်</li>
-                            <li>စွန်းဝူခုန်း</li>
-                            <li>ကာတွန်းကား</li>
+                            <li>မြွေလှေကား</li>
+                            <li>ပိုကီမွန်</li>
+                            <li>မိုနိုပိုလီ</li>
                             <button class="btn btn-outline-dark about-btn">ကြည့်ရန်</button>
                         </ul>
                     </div>
+                </div>             
+            </div>
+        </div>
+       <!--=====About website end=====-->
+     <!--=====Content End=====-->
+
+    <!--=====Footer Start=====-->
+       <div class="row">
+        
+            <div class="container-fluid my-footer">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="footer-link">
+                            <li>ပင်မစာမျက်နှာ</li>
+                            <li>အမှတ်တရများ</li>
+                            <li>အခြား</li>
+                            <li>ကျွန်တော်တို့အကြောင်း</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <form action="#" method="POST">
+                            <div class="text-center">
+                                <h6 class="contact-header">အကြံပြုချက်</h6>
+                            <input type="email" placeholder="email" class="email">
+                            <textarea name="textarea" class="textarea" id="" cols="30" rows="3" placeholder="message"></textarea>
+                            </div>                           
+                        </form>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <a href="https://www.facebook.com/zawhtet.aung.5680"><img src="images/icons/facebook.png" alt="facebook " class="social-icons"></a>
+                        <a href="https://www.instagram.com/zaw_htet_aung76/"><img src="images/icons/instagram.png" alt="facebook" class="social-icons"></a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <p class="footer-text">2019 , &copy; Copyright all rights reserved Made By </p>
                 </div>
                 
             </div>
-            
+           
+       </div>
+    <!--=====Footer End=====-->
 
-        </div>
-
-        <!--=====About website end=====-->
-
-
-
-
-       <!--=====Content End=====-->
 
     </div>
 

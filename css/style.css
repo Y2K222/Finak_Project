@@ -1,6 +1,52 @@
+/*=====For Tablet=====*/
+@media only screen and (max-width: 1000px) {
+    .nav-link{
+        font-size: 15px !important;
+        margin: 0 !important;
+    }
+    .nav_bar{
+        padding: 10px 0px !important;
+    }
+    .nav{
+        float: left !important;
+    }
+    .fullwidth_tips h2{
+        font-size: 20px !important;
+        margin: 0 !important;
+     }
+     .fullwidth_tips{
+        padding: 20px !important;
+        margin-top: 40px !important;
+        overflow: contain !important;
+    }
+}
+
+/*=====For Phone=====*/
+@media only screen and (max-width: 1000px) {
+    .nav-link{
+        font-size: 10px !important;
+        margin: 0 !important;
+    }
+    .nav_bar{
+        padding: 10px 0px !important;
+    }
+    .nav{
+        float: left !important;
+    }
+    .header{
+        font-size: 20px;
+    }
+}
+
+
+
+/*=====For Deskstop=====/
 /* =====Warpper===== */
-.warpper{
-    background-color: #F6F6F6;
+body{
+    overflow-x: hidden;
+    background-image: url(../images/backgrounds/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*=====Navbar Start=====*/
@@ -10,6 +56,10 @@
     background-repeat: no-repeat;
     height: 80px;
     padding: 10px 200px;
+}
+.navbar-nav{
+    width: 100%;
+    float: right;
 }
 .justify-content-end {
     width: 100%;
@@ -38,6 +88,7 @@
 .banner_li li{
     font-size: larger;
     margin-top: 10px;
+    margin-left: 100px;
 }
 .banner-btn{
     float: right;
@@ -68,7 +119,13 @@
 /*=====Fullwidth Tips end=====*/
 
 /*=====About website start=====*/
-
+.about-website{
+    margin-top: 50px;
+}
+.about_header{
+    color:saddlebrown;
+    margin-bottom: 50px;
+}
 .about-photo{
     width: 100%;
     height: auto;
@@ -82,9 +139,45 @@
     color: dimgrey;
 }
 .about-btn{
+    margin-top: 25px;
     width: 100%;
 }
 /*=====About website end=====*/
+
+/*=====Footer start=====*/
+.my-footer{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    padding-top: 100px;
+}
+.my-footer .footer-link{
+    color: #333;
+    list-style-type: none;
+    text-align: center;
+}
+.my-footer .footer-link li{
+    line-height: 1.5rem;
+}
+.my-footer .footer-link li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input[type="email"],textarea{
+    margin-top: 5px;
+}
+.social-icons{
+    width: 30px;
+    height: auto;
+}
+.footer-text{
+    font-size: 15px;
+    color: #555;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+/*=====Footer end=====*/
+
 
 
 

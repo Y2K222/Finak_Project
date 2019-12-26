@@ -1,0 +1,21 @@
+/*=====Post start=====*/
+.post-title{
+    color: saddlebrown;
+}
+.post-subtitle{
+    color: sienna;
+}
+/*=====Post end=====*/
+
+
+/*=====Gallery start=====*/
+.gallery-header{
+    font-size: 20px;
+    color: saddlebrown;
+}
+.gallery-img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+/*=====Gallery end=====*/
